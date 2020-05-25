@@ -2,12 +2,7 @@ import React from 'react';
 import './idcard.css';
 
 const IdCard = (props) => {
-  const lastName = props.lastName;
-  const firstname = props.firstName;
-  const gender = props.gender;
-  const height = props.height;
-  const birth = props.birth;
-  const picture = props.picture;
+  const { lastName, firstname, gender, height, birth, picture } = props;
   let options = {
     weekday: 'short',
     year: 'numeric',

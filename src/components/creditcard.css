@@ -1,0 +1,44 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.credit-card {
+  display: flex;
+  position: relative;
+  padding: 2em;
+  margin: 1em;
+  width: 20em;
+  height: 7em;
+  border-radius: 5px;
+}
+
+.type-card {
+  position: absolute;
+  top: 0;
+  right: 1em;
+}
+
+.card-number {
+  position: absolute;
+  top: 30%;
+  bottom: 70%;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-expdate-bank {
+  position: absolute;
+  top: 60%;
+  bottom: 40%;
+  bottom: 3em;
+  font-size: small;
+}
+
+.card-owner {
+  position: absolute;
+  top: 70%;
+  bottom: 30%;
+  font-size: small;
+}
