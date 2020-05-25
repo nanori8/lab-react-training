@@ -1,0 +1,13 @@
+.id-card {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  line-height: 0em;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+.id-info {
+  margin-left: 0.5em;
+}
