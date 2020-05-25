@@ -3,6 +3,7 @@ import './App.css';
 
 import IdCard from './components/idcard';
 import Greetings from './components/greetings';
+import Random from './components/random';
 
 const App = () => {
   return (
@@ -24,15 +25,13 @@ const App = () => {
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
 
-      <Greetings 
-        lang="de"
-        firstName="Ludwig"
-      />
+      <Greetings lang="de" firstName="Ludwig" />
 
-      <Greetings 
-        lang="fr"
-        firstName="François"
-      />
+      <Greetings lang="fr" firstName="François" />
+
+      <Random min={1} max={6} />
+
+      <Random min={1} max={100} />
     </div>
   );
 };
