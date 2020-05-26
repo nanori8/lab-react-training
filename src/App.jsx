@@ -6,6 +6,8 @@ import Greetings from './components/greetings';
 import Random from './components/random';
 import BoxColor from './components/boxcolor';
 import CreditCard from './components/creditcard';
+import LikeButton from './components/likebutton';
+import ClickablePicture from './components/clickablepicture';
 
 const App = () => {
   return (
@@ -66,6 +68,13 @@ const App = () => {
         owner="Firstname Lastname"
         bgColor="#ddbb55"
         color="white"
+      />
+      <LikeButton />
+      <LikeButton />
+
+      <ClickablePicture
+        img="/img/persons/maxence.png"
+        imgClicked="/img/persons/maxence-glasses.png"
       />
     </div>
   );
