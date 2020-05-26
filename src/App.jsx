@@ -8,6 +8,7 @@ import BoxColor from './components/boxcolor';
 import CreditCard from './components/creditcard';
 import LikeButton from './components/likebutton';
 import ClickablePicture from './components/clickablepicture';
+import Dice from './components/dice';
 
 const App = () => {
   return (
@@ -76,6 +77,8 @@ const App = () => {
         img="/img/persons/maxence.png"
         imgClicked="/img/persons/maxence-glasses.png"
       />
+
+      <Dice />
     </div>
   );
 };
